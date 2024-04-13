@@ -23,7 +23,7 @@ body{
 }
 
 #container{
-    width: 736px;
+    max-width: 736px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -39,7 +39,7 @@ img{
     border-radius: 20px;
 }
 .content{
-    width:656px;
+    max-width:656px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -51,5 +51,29 @@ h1{
 p{
     font-family: "Outfit";
     font-weight: 200;
+}
+.time{
+    background-color: hsl(330, 100%, 98%);
+    max-width: 656px;
+    min-height: 180px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Outfit";
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: .50em;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 500;
+    margin-left: 20px;
+}
+li span{
+    font-weight: bold;
+    
 }
 
