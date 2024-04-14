@@ -60,20 +60,31 @@ p{
     margin-left: 40px;
     margin-right: 40px;
     padding-top: 10px;
-    padding-left: 10px;
+    
     font-family: "Outfit";
 }
 li::marker{
     color: hsl(332, 51%, 32%);
-    font-size: .50em;
+    font-size: .70em;
 }
 h3{
     color: hsl(332, 51%, 32%);
     font-weight: 500;
     margin-left: 20px;
+    
 }
 li span{
     font-weight: bold;
     
+}
+li{
+    color: hsl(30, 10%, 34%);
+    font-weight: 300;
+    
+}
+ul{
+    line-height: 35px;
+    
+    align-content: center;
 }
 
