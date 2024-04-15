@@ -27,6 +27,10 @@ body{
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
+.inner-content{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .image{
     
     display: flex;
@@ -40,8 +44,6 @@ img{
 }
 .content{
     max-width:656px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 h1{
     font-size: 28pt;
@@ -57,10 +59,7 @@ p{
     max-width: 656px;
     min-height: 180px;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
     padding-top: 10px;
-    
     font-family: "Outfit";
 }
 li::marker{
@@ -71,20 +70,43 @@ h3{
     color: hsl(332, 51%, 32%);
     font-weight: 500;
     margin-left: 20px;
-    
 }
 li span{
     font-weight: bold;
-    
 }
 li{
     color: hsl(30, 10%, 34%);
     font-weight: 300;
-    
+    font-family: "Outfit";
+    font-size: 16px;
 }
 ul{
     line-height: 35px;
-    
     align-content: center;
 }
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    font-size: 24pt;
+    font-weight: 100;
+}
+.ingredients{
+    
+    font-size: 18pt;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr{
+    border: 1px solid hsl(30, 18%, 87%);
+    border-width: 1px 0;
 
+}
+tr:first-child {
+    border-top: none;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
