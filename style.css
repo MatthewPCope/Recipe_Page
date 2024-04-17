@@ -12,6 +12,14 @@ html{
     margin: 0;
     padding: 0;
 }
+@media (max-width:736px) {
+    .inner-content {
+        margin: 0;
+        min-width: 100%;
+        border-radius: 0;
+    }
+}
+
 
 body{
     height: 100%;
@@ -23,7 +31,7 @@ body{
 }
 
 #container{
-    height: 100%;
+    
     max-width: 736px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
@@ -39,8 +47,8 @@ body{
     justify-content: center;
 }
 img{
-    width: 656px;
-    height: 300px;
+    max-width: 656px;
+    
     margin-top: 40px;
     border-radius: 20px;
 }
