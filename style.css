@@ -12,13 +12,6 @@ html{
     margin: 0;
     padding: 0;
 }
-@media (max-width:736px) {
-    .inner-content {
-        margin: 0;
-        min-width: 100%;
-        border-radius: 0;
-    }
-}
 
 
 body{
@@ -48,7 +41,7 @@ body{
 }
 img{
     max-width: 656px;
-    
+    min-width: 325px;
     margin-top: 40px;
     border-radius: 20px;
 }
