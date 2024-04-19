@@ -24,7 +24,7 @@ body{
 }
 
 #container{
-    
+    min-width: 375px;
     max-width: 736px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
