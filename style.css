@@ -48,6 +48,20 @@ img{
 .content{
     max-width:656px;
 }
+@media(min-width: 375px){
+    .inner-content{
+        max-width: 375px;
+    }
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+}
 h1{
     font-size: 28pt;
     font-family: "Young Serif";
