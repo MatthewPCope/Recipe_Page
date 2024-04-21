@@ -24,8 +24,8 @@ body{
 }
 
 #container{
-    min-width: 375px;
-    max-width: 736px;
+    
+    width: 736px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -50,7 +50,7 @@ img{
 }
 @media(min-width: 375px){
     .inner-content{
-        max-width: 375px;
+        max-width:736px
     }
     #container{
         display: flex;
