@@ -15,13 +15,26 @@ html{
 
 
 body{
-    height: 100%;
+    min-height: 100vh;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
+/* body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    padding-block: 5rem;
+  } */
 
 #container{
     
@@ -48,7 +61,7 @@ img{
 .content{
     max-width:656px;
 }
-@media(min-width: 375px){
+/* @media(min-width: 375px) and (max-width:767px){
     .inner-content{
         max-width:736px
     }
@@ -61,7 +74,7 @@ img{
         display: flex;
         justify-content: center;
     }
-}
+} */
 h1{
     font-size: 28pt;
     font-family: "Young Serif";
@@ -146,4 +159,18 @@ td{
 ol > li::marker {
     font-weight: bold;
     font-size: 10pt;
+}
+@media(max-width: 376px){
+    .inner-content{
+        padding-top: 0;
+    }
+    .image{
+        padding: 0;
+    }
+    img{
+        padding:0
+    }
+    body{
+        padding: 0;
+    }
 }
